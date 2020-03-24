@@ -3,6 +3,7 @@
 #include <vector>
 using namespace std;
 
+
 char map[101][101];
 bool visit[101][101];
 vector<pair<int, int>> greenIdx;
