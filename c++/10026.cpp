@@ -3,6 +3,7 @@
 #include <vector>
 using namespace std;
 
+
 char map[101][101];
 bool visit[101][101];
 vector<pair<int, int>> greenIdx;
@@ -10,6 +11,8 @@ char colorList[3] = {'R', 'B', 'G'};
 int dx[4] = {0, 0, -1, 1};
 int dy[4] = {-1, 1, 0, 0};
 int range;
+
+
 
 void Check(pair<int, int> start, char color) 
 {
